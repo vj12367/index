@@ -1,0 +1,29 @@
+body{
+	background-color: goldenrod;
+}
+p{
+	font-size: 50px;
+	text-align: center;
+	color: green;
+}
+table{
+border:double 5px purple;	
+font-size: 50px;
+color: green;
+width: 50%;
+
+	}
+th,td{
+border: solid 2px rosybrown;
+width: 50%;
+	}
+tr:hover{
+	background-color: lightblue;
+}
+tr:hover{
+ background-image: url(https://i.pinimg.com/originals/e6/f8/0b/e6f80be8122d7019c37b39b02dd6ec2c.gif)
+ text-align: center;
+ font-weight: 700;
+ color: crimson;
+ font-size: 1.1em;
+ text-transform: uppercase;

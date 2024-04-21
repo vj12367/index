@@ -1,0 +1,104 @@
+body{
+	background-color: darkgrey;
+}
+p{
+
+font-size: 50px;
+
+color: cyan;
+
+}
+
+background-color: ivory;
+
+.p1{
+
+display: inline;
+
+}
+
+.p2{
+
+display: block;
+
+}
+
+.p2 span{
+
+border: 3px dashed green;
+
+background-color: gold;
+
+display: inline-block;
+
+}
+
+ul{
+
+List-style: none;
+
+}
+
+li{
+
+display: inline;
+
+border: 1px dashed gray;
+
+}
+
+li:hover{
+
+background-color: grey;
+
+}
+
+and
+a{
+text-decoration: none;
+
+}
+#first{
+
+width: 400px;
+
+height: 400px;
+
+background-color: gold; justify-content: center;
+
+align-items: center; display: flex;
+
+font-size: 50px;}
+
+#second{
+
+width: 500px;
+
+height: 800px;
+
+background-color: darkmagenta;
+
+margin: 100px;
+
+padding: 60px;
+
+}
+
+#third, #forth{
+
+width: 600px;
+
+height: 200px;
+
+background-color: yellowgreen;
+
+margin: 50px;
+
+border: 10px dashed;
+
+border-color: red green;
+}
+#forth{ background-color: orchid;
+ border-style: dotted;
+
+}

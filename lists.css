@@ -1,0 +1,32 @@
+body{
+	background-color: cyan;
+}
+p{
+	font-size: 50px;
+	font-family: Oswald, Arial, Helvetica, sans-serif;
+	text-align: center;
+	color: green;
+}
+ul,ol{
+  font-size:24px;
+ color: fuchsia;
+ }
+ .l1 li::marker{
+ color:darkblue;
+ font-size:1.1em; 
+}
+
+ .l2 li{
+ padding-left:66px;	
+}
+ul,ol{ margin-left:55px ;
+	}
+@counter-style circled-digits {
+ system: fixed;
+ symbols: 😀 👻 👽 👾 🤖 🎃 😹 👋 👀 💋;
+ suffix: " ";
+}
+ul.rt{
+	list-style: circled-digits;
+}
+
